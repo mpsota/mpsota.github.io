@@ -1,0 +1,1 @@
+{"version":3,"sources":["ebc/devtools.cljs"],"mappings":";;;AAGA,AAACA;AAED,AAAMC,AAAW,AAAA,AAACC","names":["devtools.core.install_BANG_","js/console","cljs.core.range"],"sourcesContent":["(ns ebc.devtools\n  (:require [devtools.core :as devtools]))\n\n(devtools/install!)\n\n(.log js/console (range 200))"]}
